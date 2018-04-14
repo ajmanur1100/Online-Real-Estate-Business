@@ -1,0 +1,55 @@
+
+body{
+    background: #e5e6e7;
+}
+
+.login-main-con{
+    width: 350px;
+    height: 420px;
+    background: #fff;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+    margin: auto;
+    margin-top: 90px;
+    text-align: center;
+}
+
+#txtUsername, #txtPassword{
+    height:40px;
+    width: 220px;
+    padding-left:15px;
+    outline: none;
+    margin: 10px;
+    border:1px solid black;
+    font:bold 16px calibri;
+}
+
+#txtUsername:focus, #txtPassword:focus{
+    border:1px solid #40aadd;
+    box-shadow: 0px 0px 8px rgba(40,140,240,0.3);
+}
+
+#txtUsername{
+    margin-top: 35px;   
+}
+   
+img{
+    width: 25%;
+    margin-top: 20px;
+}
+
+.btn-submit{
+    height: 40px;
+    width: 120px;
+    background: #fff;
+    color: black;
+    border: 1px solid black;
+    margin-top: 20px;
+    font:bold 16px calibri;
+    outline: none;
+    transition: all 0.33s ease-in-out;
+}
+
+.btn-submit:hover{
+    background: black;
+    color:#fff;
+}

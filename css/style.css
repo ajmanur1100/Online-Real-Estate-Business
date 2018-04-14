@@ -1,0 +1,93 @@
+*{
+    font-family: 'Open Sans', 'Ubuntu', Calibri;
+}
+
+body{
+    background: #fafafa;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    padding: 0px !important;
+}
+
+.main-content{
+    background: #e5e5e5;
+}
+
+.menu-bar{
+    height: 40px;
+    width: 100%;
+    /* float: right; */
+    line-height: 40px;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+a:link, a:hover, a:visited, a:focus{
+    text-decoration: none !important;
+}
+
+.menu-bar a {
+    padding: 0px 20px;
+    display: inline-block;
+    color:#262c3a;
+    text-transform: uppercase;
+    font-family: calibri;
+    font-weight: bold;
+}
+
+.menu-bar a:hover{
+    background: #ccc;
+    color:#333;
+}
+
+.wrapper{
+    width:80%;
+    margin: auto;
+}
+
+.main-content{
+    background: #e5e5e5;
+}
+
+.welcome{
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+    margin: 0;
+    font-family: 'Ubuntu', calibri;
+    color:#7952b3;
+}
+
+.img{
+    width:100%;
+}
+
+.branding{
+    padding: 50px 0px;
+    background: #f2f2f2;
+}
+
+.footer{
+    background: #333;
+    padding: 22px 0px;
+}
+
+.content{
+    padding: 40px 0px;
+}
+
+.socaial-links{
+    text-align: center;
+}
+
+.socaial-links a{
+    padding: 0px 10px;
+    color:#bbb;
+}
+
+.socaial-links a:hover{
+    color: #777;
+}
